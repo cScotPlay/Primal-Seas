@@ -5,6 +5,7 @@ backups/
 
 changelogs/
 
+config/BiomeTweaker/output
 config/MouseTweaks.cfg
 config/NEI/client.cfg
 config/jei/jei.cfg
@@ -12,6 +13,8 @@ config/jei/worldSettings.cfg
 config/InvTweaks.cfg
 config/theoneprobe.cfg
 config/betterfps.json
+config/XaeroWaypoints/
+config/XaeroWorldMap/
 
 crash-reports/
 
