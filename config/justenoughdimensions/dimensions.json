@@ -1,27 +1,28 @@
 {
 	"dimensions": 
 	[
+    //{
+      //"dim": 0,
+      //"override": true,
+      //"biome": "minecraft:deep_ocean",
+      //"dimensiontype": {
+        //"name": "Seas",
+        //"worldprovider": "WorldProviderSurfaceJED",
+        //"keeploaded": true
+      //},
+      //"worldinfo": {
+        //"GameRules": {
+          //"disableNetherPortalCreation": "true",
+          //"doWeatherCycle": "true"
+        //}
+      //}
+    //},
     {
       "dim": 0,
       "override": true,
-      "biome": "minecraft:deep_ocean",
       "dimensiontype": {
-        "name": "Seas",
-        "worldprovider": "WorldProviderSurfaceJED",
-        "keeploaded": true
-      },
-      "worldinfo": {
-        "GameRules": {
-          "disableNetherPortalCreation": "true",
-          "doWeatherCycle": "true"
-        }
-      }
-    },
-    {
-      "dim": 100,
-      "dimensiontype": {
-        "id": 100,
-        "name": "Land",
+        "id": 0,
+        "name": "Overworld",
         "suffix": "_dim100",
         "keeploaded": true,
         "worldprovider": "WorldProviderSurfaceJED",
@@ -29,7 +30,7 @@
       },
       "worldinfo_onetime": {
         "generatorName": "customized",
-        "generatorOptions": "{\"coordinateScale\":1000.0,\"heightScale\":684.412,\"lowerLimitScale\":512.0,\"upperLimitScale\":512.0,\"depthNoiseScaleX\":200.0,\"depthNoiseScaleZ\":200.0,\"depthNoiseScaleExponent\":0.5,\"mainNoiseScaleX\":160.0,\"mainNoiseScaleY\":320.0,\"mainNoiseScaleZ\":160.0,\"baseSize\":7.75,\"stretchY\":20.0,\"biomeDepthWeight\":1.0,\"biomeDepthOffset\":0.0,\"biomeScaleWeight\":1.0,\"biomeScaleOffset\":0.0,\"seaLevel\":63,\"useCaves\":false,\"useDungeons\":false,\"dungeonChance\":8,\"useStrongholds\":false,\"useVillages\":false,\"useMineShafts\":false,\"useTemples\":false,\"useMonuments\":false,\"useMansions\":false,\"useRavines\":true,\"useWaterLakes\":false,\"waterLakeChance\":4,\"useLavaLakes\":false,\"lavaLakeChance\":80,\"useLavaOceans\":false,\"fixedBiome\":6,\"biomeSize\":3,\"riverSize\":2,\"dirtSize\":33,\"dirtCount\":10,\"dirtMinHeight\":0,\"dirtMaxHeight\":256,\"gravelSize\":33,\"gravelCount\":8,\"gravelMinHeight\":0,\"gravelMaxHeight\":256,\"graniteSize\":1,\"graniteCount\":0,\"graniteMinHeight\":0,\"graniteMaxHeight\":0,\"dioriteSize\":1,\"dioriteCount\":0,\"dioriteMinHeight\":0,\"dioriteMaxHeight\":0,\"andesiteSize\":1,\"andesiteCount\":0,\"andesiteMinHeight\":0,\"andesiteMaxHeight\":0,\"coalSize\":1,\"coalCount\":0,\"coalMinHeight\":0,\"coalMaxHeight\":0,\"ironSize\":1,\"ironCount\":0,\"ironMinHeight\":0,\"ironMaxHeight\":0,\"goldSize\":1,\"goldCount\":0,\"goldMinHeight\":0,\"goldMaxHeight\":0,\"redstoneSize\":1,\"redstoneCount\":0,\"redstoneMinHeight\":0,\"redstoneMaxHeight\":0,\"diamondSize\":1,\"diamondCount\":0,\"diamondMinHeight\":0,\"diamondMaxHeight\":0,\"lapisSize\":1,\"lapisCount\":0,\"lapisCenterHeight\":0,\"lapisSpread\":0}"
+        "generatorOptions": "{\"coordinateScale\":1000.0,\"heightScale\":684.412,\"lowerLimitScale\":512.0,\"upperLimitScale\":512.0,\"depthNoiseScaleX\":200.0,\"depthNoiseScaleZ\":200.0,\"depthNoiseScaleExponent\":0.5,\"mainNoiseScaleX\":160.0,\"mainNoiseScaleY\":320.0,\"mainNoiseScaleZ\":160.0,\"baseSize\":7.75,\"stretchY\":20.0,\"biomeDepthWeight\":1.0,\"biomeDepthOffset\":0.0,\"biomeScaleWeight\":1.0,\"biomeScaleOffset\":0.0,\"seaLevel\":63,\"useCaves\":true,\"useDungeons\":false,\"dungeonChance\":8,\"useStrongholds\":false,\"useVillages\":false,\"useMineShafts\":false,\"useTemples\":false,\"useMonuments\":false,\"useMansions\":false,\"useRavines\":true,\"useWaterLakes\":false,\"waterLakeChance\":4,\"useLavaLakes\":false,\"lavaLakeChance\":80,\"useLavaOceans\":false,\"fixedBiome\":6,\"biomeSize\":3,\"riverSize\":2,\"dirtSize\":33,\"dirtCount\":10,\"dirtMinHeight\":0,\"dirtMaxHeight\":256,\"gravelSize\":33,\"gravelCount\":8,\"gravelMinHeight\":0,\"gravelMaxHeight\":256,\"graniteSize\":1,\"graniteCount\":0,\"graniteMinHeight\":0,\"graniteMaxHeight\":0,\"dioriteSize\":1,\"dioriteCount\":0,\"dioriteMinHeight\":0,\"dioriteMaxHeight\":0,\"andesiteSize\":1,\"andesiteCount\":0,\"andesiteMinHeight\":0,\"andesiteMaxHeight\":0,\"coalSize\":1,\"coalCount\":0,\"coalMinHeight\":0,\"coalMaxHeight\":0,\"ironSize\":1,\"ironCount\":0,\"ironMinHeight\":0,\"ironMaxHeight\":0,\"goldSize\":1,\"goldCount\":0,\"goldMinHeight\":0,\"goldMaxHeight\":0,\"redstoneSize\":1,\"redstoneCount\":0,\"redstoneMinHeight\":0,\"redstoneMaxHeight\":0,\"diamondSize\":1,\"diamondCount\":0,\"diamondMinHeight\":0,\"diamondMaxHeight\":0,\"lapisSize\":1,\"lapisCount\":0,\"lapisCenterHeight\":0,\"lapisSpread\":0}"
       }
     }
   ]
